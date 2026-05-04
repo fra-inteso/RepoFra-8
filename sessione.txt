@@ -1,0 +1,386 @@
+    1  mkdir prima-repo-locale
+    2  mkdir prima repo locale
+    3  cd prima-repo-locale
+    4  ls
+    5  cd prima-repo-locale
+    6  mkdir dentro-prima
+    7  git init
+    8  git init
+    9  cd prima-repo-locale
+   10  git init
+   11  git status
+   12  git add primoFile.txt
+   13  git status
+   14  touch secondoFile.txt
+   15  git status
+   16  git add secondoFile.txt
+   17  git status
+   18  touch terzoFile.txt
+   19  git add .
+   20  git status
+   21  git util
+   22  git init
+   23  cd primofile
+   24  echo "ciao" > primoFile.txt
+   25  cat primoFile.txt
+   26  git status
+   27  git restor primoFile.txt
+   28  git restore primoFile.txt
+   29  echo primoFile.txt
+   30  git remote add origin https://github.com/fra-inteso/friday-154.git
+   31  git remote add origin [200~
+   32  git commit -m"questa è la prima commit del progetto"
+   33  git status
+   34  cd quartofile
+   35  git show
+   36  clear
+   37  git status
+   38  git commit -m"aggiunta file altro-file.txt"
+   39  git show
+   40  git log
+   41  git branch
+   42  git branch primo-ramo-di-lavoro
+   43  git branch
+   44  git log
+   45  git switch primo-ramo-di-lavoro
+   46  git log
+   47  git show
+   48  git branch 
+   49  git branch ramo-prova-maria
+   50  git switch ramo-prova-maria
+   51  git switch -c ramo-secondario-maria
+   52  git branch
+   53  git branch -m ramo-maria
+   54  git branch -m ramo-maria primo-ramo-agnese
+   55  git log
+   56  git show
+   57  git branch
+   58  git branch -d primo-ramo-di-lavoro
+   59  git branch
+   60  git init
+   61  toutch file-di-maria.txt
+   62  touch file-maria
+   63  git log
+   64  git log --graph
+   65  git switch master
+   66  touch altro-file-master
+   67  git add .
+   68  git show
+   69  git log
+   70  git commit -m
+   71  git commit-m "non so cosa sto facendo"
+   72  git commit -m "non so cosa sto facendo"
+   73  git log --all --graph
+   74  touch file-da-non-contare
+   75  git add .
+   76  git status
+   77  git switch primo-ramo-agnese
+   78  git switch master
+   79  git status
+   80  git stash puch -m "branch master: primo-stash"
+   81  git status
+   82  git stash push
+   83  git status
+   84  git stash list
+   85  git stash pop stash@{0}
+   86  git stash list
+   87  git stash clear
+   88  git stash list
+   89  git stash push
+   90  git stash list
+   91  git stash drop stash@{0}
+   92  git remote add origin https://github.com/fra-inteso/friday-154.git
+   93  git branch --all
+   94  git branch -M main
+   95  git branch
+   96  git push -u origin main
+   97  git branch --all
+   98  [user@localhost]
+   99  is
+  100  [user@localhost] $
+  101  mkdir myprogect
+  102  cd myprogect
+  103  git init
+  104  git status
+  105  ls
+  106  pwd
+  107  git add alpha.txt
+  108  git add alpha.txt.txt
+  109  git status
+  110  git
+  111  git branch universo-616
+  112  git branch universoBeta
+  113  git commit -m "creazione del file alpha"
+  114  git log
+  115  git branch universo-616
+  116  git swith universo-616
+  117  git switch universo-616
+  118  git log
+  119  git checkout
+  120  git checkout master
+  121  git branch
+  122  git switch universo-616
+  123  git branch
+  124  git branch --all
+  125  git checkout master
+  126  cd myprogect
+  127  git log
+  128  git ls
+  129  ls
+  130  cd myprogect
+  131  git branch
+  132  git status
+  133  ls
+  134  git log
+  135  git switch universo-616
+  136  git branch --move universo-838
+  137  git branch
+  138  git branch -m master main
+  139  git branch
+  140  git status
+  141  ls
+  142  git switch main
+  143  ls
+  144  mkdir modifica1
+  145  ls
+  146  mkdir modifica.txt
+  147  git rm modifica1
+  148  rm -r modifica1
+  149  rm -r modifica.txt
+  150  touch modifica1
+  151  echo "ciao" > modifica1
+  152  ls
+  153  ls
+  154  git stash push -m "aggiunta di modifica1"
+  155  git stash list
+  156  git checkout universo-838
+  157  echo "come va?" >> modifica1
+  158  git stash push -m "aggiunta come va? al file modifica1"
+  159  git status
+  160  git add .
+  161  git stash push -m "messo in stage 2 file"
+  162  git stash list
+  163  git stash pop stash@{1}
+  164  git status
+  165  git log
+  166  git restore .
+  167  git switch main
+  168  git status
+  169  ls
+  170  git stash list
+  171  git checkout universo-838
+  172  git pop
+  173  git stash pop
+  174  git status
+  175  git commit -m "new file alpha.txt-modifica1"
+  176  git log
+  177  git stash list
+  178  git stash push -m "nessuna modifica"
+  179  git switch main
+  180  ls
+  181  git stash push -m "nessuna modifica"
+  182  git switch universo-838
+  183  git stash push -m "non capisco un cazzo aggiunto al file modifica1"
+  184  git status
+  185  git log
+  186  git status
+  187  ls
+  188  git add modifica1
+  189  git status
+  190  echo "non capisco pt.2" >> modifica1
+  191  echo "non capisco pt2" >> modifica1
+  192  git stash push -m "non capisco pt2"
+  193  git stash list
+  194  git stash pop stash@{0}
+  195  git status
+  196  git add .
+  197  git status
+  198  git status
+  199  git stash push -m "prima modifica alpha"
+  200  git stash list
+  201  git remote -v
+  202  git remote add origin https://github.com/fra-inteso/friday-154.git
+  203  git remote remove origin
+  204  git remote add origin https://github.com/fra-inteso/myprogect.git
+  205  git switch main
+  206  git status
+  207  git log
+  208  git branch --all
+  209  git remote -v
+  210  git push -u origin main
+  211  git switch universo-838
+  212  git status
+  213  git commit -u "aggiunta file alpha e modifica1"
+  214  git commit -m "aggiunta alpha e modifica1"
+  215  git status
+  216  git add .
+  217  git status
+  218  ls
+  219  git log
+  220  git push -u origin universo-838
+  221  git status
+  222  git add .
+  223  git status
+  224  git commit -m "aggiunta testo a file alpha.txt.txt"
+  225  git push -u origin universo-838
+  226  git remote show origin
+  227  git remote -v
+  228  git file ls
+  229  git ls-file
+  230  git ls-files
+  231  git diff
+  232  git switch main
+  233  git diff
+  234  git diff
+  235  git switch main
+  236  git switch universo-838
+  237  git stash push -m "modifica file alpha con testo prova"
+  238  git stash list
+  239  git switch universo-838
+  240  git branch -m universo-616
+  241  git diff
+  242  git push origin --delete universo-838
+  243  git push -u origin universo-616
+  244  git stash list
+  245  git stash list
+  246  git switch main
+  247  git echo
+  248  git
+  249  less alpha.txt
+  250  ls
+  251  less alpha.txt.txt
+  252  cat alpha.txt.txt
+  253  echo "prova scrittura e visuale" >> alpha.txt.txt
+  254  cat alpha.txt.txt
+  255  mkdir Fascicolo
+  256  cd Fascicolo
+  257  git init
+  258  ls
+  259  git status
+  260  git add .
+  261  git status
+  262  git diff
+  263  git stash pull -m "vediamo che succede"
+  264  git stash push -m "vediamo che succede"
+  265  git log
+  266  git branch list
+  267  git branch --all
+  268  git branch -m main
+  269  git commit -m "aggiunta file cv e gemini img"
+  270  git branch
+  271  git branch universo-838
+  272  git branch
+  273  git checkout universo-838
+  274  git stash push -m "hw"
+  275  git diff
+  276  git switch main
+  277  git diff
+  278  git stash push -m "file eliminati"
+  279  git ls-files
+  280  git diff
+  281  git switch universo-838
+  282  ls
+  283  git switch main
+  284  ls
+  285  git status
+  286  git add .
+  287  git status
+  288  git diff
+  289  git switch universo-838
+  290  git status
+  291  rm IMG_5429
+  292  git switch main
+  293  git log
+  294  git commit -m "aggiunta wallpaper"
+  295  git stash list
+  296  git stash apply stash@{0}
+  297  git stash push
+  298  git stash apply stash@{0}
+  299  git switch universo-838
+  300  git status
+  301  ls
+  302  git diff
+  303  git switch main
+  304  git stash list
+  305  touth File
+  306  git touth File
+  307  git init
+  308  touch filenuovo.txt
+  309  git status
+  310  ls
+  311  git show
+  312  git add .
+  313  git status
+  314  git commit -m "aggiunta filenuovo"
+  315  git  show
+  316  git remote add origin https://github.com/fra-inteso/ProgettoACoppia.git
+  317  git branch -M main
+  318  git push -u origin main
+  319  git remote -v
+  320  git push -u origin
+  321  git commit -m "rinomina file"
+  322  git add .
+  323  git status
+  324  git commit -m "rinomina filenuovo a fileprova"
+  325  git push
+  326  git status
+  327  ls
+  328  git init
+  329  git status
+  330  git add .
+  331  git status
+  332  git add Personale
+  333  git status
+  334  git commit -m "Inizializzo Repo locale"
+  335  git commit
+  336  git ls-file
+  337  git ls-files
+  338  git log
+  339  git branch -m main
+  340  git status
+  341  git commit -m "Branch master to main"
+  342  git log
+  343  git remote add origin https://github.com/fra-inteso/EserciziPersonali.git
+  344  git remote-v
+  345  git remote show origin
+  346  push -u origin main
+  347  git push -u origin main
+  348  git remote show origin
+  349  git status
+  350  git add .
+  351  git status
+  352  git commit -m "metadata aggiunto"
+  353  git stutus
+  354  git status
+  355  git push
+  356  git status
+  357  git add .
+  358  git status
+  359  git commit -m "creazione file "Esercizio2"
+  360  git status
+  361  git status
+  362  gitl log
+  363  git log
+  364  git commit -m "Creazione e aggiunta file Esercizio2"
+  365  git log
+  366  git push
+  367  git branch
+  368  it remote show origin
+  369  git remote show origin
+  370  git status
+  371  git status
+  372  git add .
+  373  git init
+  374  git status
+  375  git add .
+  376  git status
+  377  git commit -m "creazione progetto di gruppo e aggiunta file casuale"
+  378  git log
+  379  git remote add origin https://github.com/fra-inteso/RepoFra-8.git
+  380  git branch -m main
+  381  git push -u origin main
+  382  git log
+  383  script sessione.txt
+  384  git script sessione.txt
+  385  script sessione.txt
+  386  history > sessione.txt
